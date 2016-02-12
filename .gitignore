@@ -45,3 +45,35 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+*~
+*.apk
+*.7z
+*.bak
+bin/
+*.bz2
+*.bzip
+*.class
+.classpath
+*.deb
+*.ear
+*.gz
+*.iso
+*.jar
+*.log
+*.lzma
+.metadata/
+*.o
+.pmd
+.project
+*.rpm
+.settings/
+*.so
+*.tar
+target/
+.tern-project
+Thumbs.db
+*.war
+*.xz
+*.zip
+*.gitignore*
