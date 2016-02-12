@@ -3,12 +3,23 @@ package com.gf.mx.json;
 import java.math.BigDecimal;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonView;
+
 public class Staff {
 
+	@JsonView(Views.Normal.class)
 	private String name;
+
+	@JsonView(Views.Normal.class)
 	private int age;
+
+	@JsonView(Views.Normal.class)
 	private String position;
+
+	@JsonView(Views.Manager.class)
 	private BigDecimal salary;
+
+	@JsonView(Views.Normal.class)
 	private List<String> skills;
 
 	/**
